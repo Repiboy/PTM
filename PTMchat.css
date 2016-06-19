@@ -1,0 +1,103 @@
+#chat .welcome {               
+background: linear-gradient(135deg, #0058CB 10%,#0a0a0a 30%,#0a0a0a 100%);
+  border: 3px solid #0092FF;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  font-weight: bold !important;
+}  
+#vote {
+	opacity: 0.80;
+}
+#woot { 
+	border-radius: 80px 0 0 80px ;
+}
+#woot .bottom { 
+	border-radius: 0 0 0 70px;
+}
+#woot.selected, #woot .bottom, #woot.crowd-response.disabled.active .bottom {
+	background: linear-gradient(to top,#90AD2F,rgba(144, 173, 47, 1) 100%);	
+}
+#meh { 
+	border-radius: 0 80px 80px 0;
+}
+#meh .bottom { 
+	border-radius: 0 0 80px 0;
+}
+#meh.selected, #meh .bottom, #meh.crowd-response.disabled.active .bottom {
+	background: linear-gradient(to top,#C42E3B,rgba(196, 46, 59, 1) 100%);
+}
+#grab.selected, #grab .bottom, #grab.crowd-response.disabled.active .bottom {	
+  background: linear-gradient(to top,#0092FF,rgba(0, 146, 255, 1) 100%);
+}
+#dj-button.is-wait, #dj-button.is-leave, #dj-button.is-quit, #dj-button.is-locked, #dj-button.is-full {
+	opacity: 0.80;
+}
+#dj-button, #dj-button.is-leave { 
+	border-radius: 80px 80px 80px 80px;
+	background: linear-gradient(to top,#3A3A3A,rgba(34, 34, 34, 1) 100%);	
+}
+#dj-button .left {
+	border-radius: 80px 80px 80px 80px;
+	background: linear-gradient(to top,#0058CB,rgba(0,88,203, 1) 100%);
+}
+#dj-button.is-leave .left {
+	background: linear-gradient(to top,#0092FF,rgba(0,146,255, 1) 100%);
+}	
+@media (max-width: 1600px) {
+    #room .app-right {
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.70) 0,rgba(0, 0, 0, 1) 100%);
+    }
+}
+#footer {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+#footer-user .back{
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+#app-header {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+#dashboard {
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+#user-view {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.75) 0%);
+}
+#user-menu {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.75) 100%);
+}
+#app-menu .list {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.75) 100%);
+}
+#app-menu .button {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.75) 100%);
+}
+#woot .bottom, 
+#woot.selected,
+.votes-rs .title.woot {
+    background: #90AD2F !important;
+}
+.votes-rs .title.grab,
+#grab .bottom, 
+#grab.selected {
+    background: #0092FF !important;
+}
+.votes-rs .title.meh,
+#meh .bottom, 
+#meh.selected {
+    background: #C42E3B !important;
+} 	
+#dialog-user-role {
+ background: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.75) 100%);
+}
+#dialog-body {
+ background: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.75) 100%);
+}
+#playlist-panel, #history-panel  {
+  background : black-transparent;
+  opacity: 0.80;
+  text-shadow: 1px -1px #000;
+}
+#playlist-menu {
+  background: none;
+}
