@@ -2,7 +2,7 @@
   "room": "PlayTogetherMusic CZ/SK/ENG",
   "author": "Repiboy",
   "icon": "",
-  "css": "",
+  "css": "https://rawgit.com/Repiboy/PTM/master/PTM.css",
   "rules": {
     "allowAutorespond": true,
     "allowAutowoot": true,
