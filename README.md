@@ -1,1 +1,45 @@
-# PTM
+{
+  "room": "PlayTogetherMusic CZ/SK/ENG",
+  "author": "Repiboy",
+  "icon": "",
+  "css": "",
+  "rules": {
+    "allowAutorespond": true,
+    "allowAutowoot": true,
+    "allowAutojoin": true,
+    "allowAutograb": true,
+    "allowSmartVote": true,
+    "allowEmotes": true,
+    "allowShowingMehs": true,
+    "forceSmartVote": false
+},
+  "ccc": {
+    "admin": "#0092FF",
+    "ambassador": "#89BE6C",
+    "host": "#0092FF",
+    "cohost": "#0092FF",
+    "manager": "#0092FF" ,
+    "bouncer": "#0092FF" ,
+    "rdj": "#0092FF",
+    "subscriber": null,
+    "silversubscriber": null,
+    "friend": null,
+    "user": null
+  },
+  "images": {
+    "background": "https://vgy.me/rnyq3Q.jpg",
+    "playback": "https://vgy.me/tc8yFV.png",
+    "admin": "https://vgy.me/3UXBpE.png",
+    "ambassador": "https://vgy.me/WHK5XT.png",
+    "host": "https://vgy.me/meu8CQ.png",
+    "cohost": "https://vgy.me/meu8CQ.png",
+    "manager": "https://vgy.me/2EctoH.png",
+    "bouncer": "https://vgy.me/QjCXuM.png",
+    "rdj": "https://vgy.me/FVnmgs.png",
+    "subscriber": "https://vgy.me/Ic53MB.png",
+    "silversubscriber": "https://vgy.me/XcP36Y.png",
+    "other": null
+  },
+  "emotes": {
+  }
+}
