@@ -1,0 +1,386 @@
+/* CSS by Repiboy */
+
+@import url("https://rawgit.com/Repiboy/GalaxyMusic/master/GalaxyMusicChat.css");
+
+.icon { 
+    background-image: url('https://vgy.me/u6OeG4.png'); 
+}
+#user-menu .item > .icon-history-white { 
+    background: url('https://i.imgur.com/EdPgEwe.png') !important; 
+    top: 12px; 
+}
+#footer-user .item > .icon-history-white { 
+    background: url('https://i.imgur.com/EdPgEwe.png') !important; 
+    top: 12px; 
+}
+#room-bar .icon-room { 
+    background-image: url('https://vgy.me/mozqUf.png') !important;  
+    top: 11px;
+    left: 7px;
+}
+#dashboard .icon-grab {  
+    background: url('https://vgy.me/BsmDX3.png') !important;  
+}
+#footer-user .info .bar .progress {
+    background: #0058CB;
+    border-radius: 2px 2pc;
+    box-shadow: #0092FF 0 0 20px;
+}
+#footer-user .info .meta div.bar {
+    background: #555d70;
+    border-radius: 2px 2pc;
+}
+#footer-user .info .pp {
+    position: absolute;
+    top: 22px;
+    left: 4px;
+}
+.experience .xp .bar {
+    border-radius: 2px 2pc;
+}
+.experience .xp .bar .progress {
+    background: #0092FF;
+    border-radius: 2px 2pc;
+    box-shadow: #0058CB 0 0 20px;
+}
+.user-content.profile .meta.is-staff .role span {
+    color: #0092FF;
+    top: 2px;
+}
+#rcs-progress-container .bar {
+    background-color: #0058CB !important;
+}
+.is-ambassador .name {
+    color: #0092FF;
+}
+.is-admin .name {
+    color: #89BE6C;
+}
+.focused {
+box-shadow: 0 0 0 0.1em #0058CB inset !important;
+}
+#chat-input {
+    border-radius: 30px;
+}
+::-webkit-scrollbar {
+    width: 13px !important;
+    background: rgba(0, 0, 0, 0.72) !important;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 10px rgb(0, 146, 255) !important;
+    -moz-box-shadow: inset 0 0 10px rgb(0, 146, 255) !important;
+    box-shadow: inset 0 0 10px rgb(0, 146, 255) !important;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 88, 203, 0.6) !important;
+    -moz-box-shadow: inset 0 0 6px rgba(0, 88, 203, 0.6) !important;
+    box-shadow: inset 0 0 6px rgba(0, 88, 203, 0.6) !important;
+    border-radius: 10px !important;
+}
+.app-right .friends .list-header .input-background,
+#user-lists .list-header .input-background,
+#filter-bar, 
+#search-bar {
+    position: absolute;
+    -webkit-box-shadow: inset 0 0 0 1px #444a59;
+    -moz-box-shadow: inset 0 0 0 1px #444a59;
+    border-radius: 30px;
+}
+#playlist-create:hover,
+#playlist-import:hover,
+#playlist-button,
+#footer-user .buttons .button.store:hover {
+    background: linear-gradient(to bottom,#0092FF 0,#0058CB 100%);
+}
+#playlist-create:hover,
+#playlist-import:hover {
+    background: linear-gradient(to bottom,#0058CB 0,#0092FF 100%);
+    box-shadow: #0092FF 0 0 70px inset;
+}
+#vote .crowd-response {
+    margin-top: 1px;
+    margin-left: -1px;
+}
+.media-list .row.now-playing {
+    height: 53px;
+    border-bottom: #0058CB 2px solid!important;
+    background: #0092FF!important;
+}
+.media-list .row.now-playing .actions {
+    background: #0058CB!important;
+}
+.media-list .selected .actions, 
+#playlist-menu .menu .row.selected, 
+.media-list .row.selected {
+    background: rgb(0, 146, 255) !important;
+}
+#user-lists .list.staff .group span {
+    color: #0092FF;
+}
+#user-lists .header .button.staff.selected {
+    border-bottom: 1px solid #0058CB;
+}
+#playlist-activate-button span {
+    top: 4px!important;
+    color: #0092FF !important;
+    font-weight: bold;
+}
+#user-inventory .avatars .grid .cell.selected .top,
+.user-content .grid .cell:hover>.top {
+    background: linear-gradient(to bottom,#0058CB 0,#0092FF 56%,#1a1a1a 73%,#73716d 100%);
+}
+#room-settings .general-settings a:hover, 
+#room-settings .general-settings a:visited:hover,
+.user-content.profile .meta .link .url a, 
+.user-content.profile .meta .link .url a:visited,
+#chat .text a:hover, 
+#chat .text a:visited:hover {
+    color: #0058CB;
+}
+#room-settings .general-settings a, 
+#room-settings .general-settings a:visited,
+#chat .text a, 
+#chat .text a:visited {
+    color: #0092FF;
+}
+.tab-menu button.selected,
+#user-menu .item.selected {
+    background: rgb(0, 88, 203);
+    cursor: default;
+}
+.favorite.selected i {
+    background: url('https://vgy.me/BsmDX3.png');
+}
+#room-settings-menu .item.selected {
+    background: rgb(0, 146, 255);
+    cursor: default;
+}
+#room-settings .general-settings .option button.off {
+    margin-left: 10px;
+    background: #0058CB;
+    color: #eee;
+}
+#room-settings .general-settings .option.enabled>button.on {
+    background: #0092FF;
+    color: #eee;
+}
+#waitlist .list.manager .user .meta {
+    border-bottom: none;
+}
+#chat .user-action {
+    color: #0058CB;
+}
+#user-lists .list.bans .user .label, 
+#user-lists .list.mutes .user .label {
+    color: #0058CB;
+}
+#user-lists .list.bans .user .unban, 
+#user-lists .list.mutes .user .unmute {
+    color: #0092FF !important;
+}
+#user-inventory .badges .grid .cell.selected {
+    box-shadow: inset 0 0 0 2px #0058CB;
+    cursor: pointer;
+}
+#playlist-edit-button:hover {
+    background: linear-gradient(to bottom,#F721FF 0,#0058CB 100%);
+}
+#playlist-shuffle-button:hover {
+    background: linear-gradient(to bottom,#0058CB 0,#0092FF 100%);
+}
+#playlist-delete-button:hover {
+    background: linear-gradient(to bottom,#0092FF 0,#0058CB 100%);
+}
+.media-list.history .score .positive {
+    color: #0092FF !important;
+    font-weight: bold;
+}
+.media-list.history .score .grabs span {
+    color: #0058CB !important;
+    font-weight: bold;
+}
+.media-list.history .score .negative {
+    color: #0092FF !important;
+    font-weight: bold;
+}
+.icon-history-positive {
+    background-position: 0 -366px !important;
+}
+.icon-history-grabs {
+    background-position: -35px -366px !important;
+}
+.icon-history-negative {
+    background-position: -16px -366px !important;
+}
+.media-list.history .icon {
+    top: 2px !important;
+    margin-left: -3px;
+    margin-right: 5px;
+}
+.dialog-frame .button.submit,
+#dj-button .left {
+    background: linear-gradient(to bottom,#0092FF 0,#0058CB 100%) !important;
+}
+.dialog.destructive .button.submit,
+#dj-button.is-leave .left, 
+#dj-button.is-quit .left {
+    background: linear-gradient(to bottom,#0058CB 0,#0092FF 100%) !important;
+}
+#dj-button {
+    background: #363B44;
+}
+.dialog-frame .button.submit.purchase {
+    color: #eee;
+    background: linear-gradient(to bottom,#0092FF 0,#0058CB 100%) !important;
+}
+
+#user-panel:not(.is-none) .user > .icon-chat-host + .name,#user-lists .user > .icon-chat-host + .name,.message.from-host > .from,.emote.from-host > .from,.mention.from-host > .from {
+    color: #0092FF !important;
+}
+.icon-chat-host,.message.from-host > .icon,.emote.from-host > .icon,.mention.from-host > .icon {
+    background-image: url("https://vgy.me/meu8CQ.png") !important;
+    background-position: 0 0;
+}
+.icon-chat-host ~ .text > .name,.icon-chat-host ~ .from,.icon-chat-host ~ span {
+    color: #0092FF !important;
+}
+#chat-messages:not(.is-none) .user > .icon-chat-cohost + .name,#user-lists .user > .icon-chat-cohost + .name,.message.from-cohost > .from,.emote.from-cohost > .from,.mention.from-cohost > .from {
+   color: #0092FF !important;
+}
+.icon-chat-cohost,.message.from-cohost > .icon,.emote.from-cohost > .icon,.mention.from-cohost > .icon {
+    background-image: url("https://vgy.me/meu8CQ.png") !important;
+    background-position: 0 0;
+}
+.icon-chat-cohost ~ .text > .name,.icon-chat-cohost ~ .from,.icon-chat-cohost ~ span {
+   color: #0092FF !important;
+}
+.icon-chat-manager ~ .text > .name,.icon-chat-manager ~ .from,.icon-chat-manager ~ span {
+    color: #0092FF !important;
+}
+.icon-chat-manager,.message.from-manager > .icon,.emote.from-manager > .icon,.mention.from-manager > .icon {
+    background-image: url("https://vgy.me/2EctoH.png") !important;
+    background-position: 0 0;
+}    
+#user-panel:not(.is-none) .user > .icon-chat-manager + .name,#user-lists .user > .icon-chat-manager + .name,.message.from-manager > .from,.emote.from-manager > .from,.mention.from-manager > .from {
+    color: #0092FF !important;
+} 
+#user-panel:not(.is-none) .user > .icon-chat-bouncer + .name,#user-lists .user > .icon-chat-bouncer + .name,.message.from-bouncer > .from,.emote.from-bouncer > .from,.mention.from-bouncer > .from {
+    color: #0092FF !important;
+}
+.icon-chat-bouncer,.message.from-bouncer > .icon,.emote.from-bouncer > .icon,.mention.from-bouncer > .icon {
+    background-image: url("https://vgy.me/QjCXuM.png") !important;
+    background-position: 0 0;
+}
+.icon-chat-bouncer ~ .text > .name,.icon-chat-bouncer ~ .from,.icon-chat-bouncer ~ span {
+    color: #0092FF !important;
+}
+#user-panel:not(.is-none) .user > .icon-chat-dj + .name,#user-lists .user > .icon-chat-dj + .name,.message.from-residentdj > .from,.emote.from-residentdj > .from,.mention.from-residentdj > .from {
+    color: #0092FF !important;
+}
+.icon-chat-dj,.message.from-residentdj > .icon,.emote.from-residentdj > .icon,.mention.from-residentdj > .icon {
+    background-image: url('https://vgy.me/FVnmgs.png') !important;
+    background-position: 0 0;
+}    
+.icon-chat-dj ~ .text > .name,.icon-chat-dj ~ .from,.icon-chat-dj ~ span {
+    color: #0092FF !important;
+}    
+.icon-chat-admin + span {
+ color: #0092FF !important;
+}
+.icon-chat-ambassador + span { 
+ color: #89BE6C !important;
+} 
+.icon-chat-host + span {
+ color: #0092FF !important;
+} 
+.icon-chat-cohost + span {
+ color: #0092FF !important;
+} 
+.icon-chat-manager + span {
+ color: #0092FF !important;
+} 
+.icon-chat-bouncer + span { 
+ color: #0092FF !important;
+} 
+.icon-chat-dj + span {
+ color: #0092FF !important;
+} 
+#room-name {
+    overflow: visible;
+}
+#room-name  span:hover {
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #0058CB , 0 0 70px #0092FF , 0 0 80px #0058CB , 0 0 100px #0092FF ;
+}
+#room-name .bar-value  {
+    display: inline-block;
+    /* top: -10px; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* padding: 10px; */
+    border: none;
+    font: normal 18px/normal "Warnes", Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    text-decoration: normal;
+    /*text-align: center;*/
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #0058CB  , 0 0 70px #0092FF  , 0 0 80px #0058CB  , 0 0 100px #0092FF ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}    
+#user-menu .avatar {
+    background-image: url('https://vgy.me/AVzaXz.jpg') !important;
+}
+#user-lists .header .button.room i, #user-lists .header .button.staff i {
+  top: 8px;
+  left: 7px;
+} 
+#user-lists .header .button.room.selected {
+  background: linear-gradient(to bottom,#0A65D2 0,#011471 100%);
+}
+#user-lists .header .button.bans.selected, 
+#user-lists .header .button.ignored.selected, 
+#user-lists .header .button.mutes.selected {
+  border-bottom: 0px solid #ac76ff;
+  background: linear-gradient(to bottom,#D00000 0,#4D0000 100%);
+}
+#user-lists .header .button.room.selected {
+  border-bottom: 0px solid #808691;
+}
+#user-lists .header .button {
+  position: relative;
+  top: 0px;
+  float: left;
+  width: 42px;
+  height: 46px;
+  cursor: pointer;
+}
+#user-lists .header .button.staff.selected {
+  border-bottom: 0px solid #ac76ff;
+  background: linear-gradient(to bottom,#9300D0 0,#33004C 100%);
+}
+#user-lists .header .button.trolls span {
+  position: absolute;
+  top: 7px;
+  left: 4px;
+}
+#user-lists .header .button.ignored i {
+  top: 7px;
+  left: 5px;
+}
+#user-lists .header .button.mutes i {
+  top: 7px;
+  left: 6px;
+}
+#footer-user .buttons .button:hover {
+  background: rgba(50, 55, 66, 0);
+}
+#user-lists .header .button.bans i {
+  top: 7px;
+  left: 8px;
+}
