@@ -1,7 +1,7 @@
 {
   "room": "PlayTogetherMusic CZ/SK/ENG",
   "author": "Repiboy",
-  "icon": "",
+  "icon": "https://vgy.me/zxnGJl.png",
   "css": "https://rawgit.com/Repiboy/PTM/master/PTM.css",
   "rules": {
     "allowAutorespond": true,
